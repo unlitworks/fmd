@@ -42,7 +42,7 @@ Constraint is the rest of it. YAML's expressiveness is exactly what lets the sam
 ## Usage
 
 ```sh
-npm install @unlitworks/fmd
+pnpm add github:unlitworks/fmd#v0.1.0
 ```
 
 ```ts

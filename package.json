@@ -1,0 +1,29 @@
+{
+	"name": "@unlitworks/fmd",
+	"version": "0.1.0",
+	"description": "Frontmatter as plain key: value lines, no YAML, every value a string.",
+	"private": true,
+	"type": "module",
+	"main": "src/fmd.ts",
+	"types": "src/fmd.ts",
+	"exports": {
+		".": "./src/fmd.ts"
+	},
+	"files": [
+		"src",
+		"README.md"
+	],
+	"packageManager": "pnpm@11.23.0",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/unlitworks/fmd.git"
+	},
+	"scripts": {
+		"check": "tsc --noEmit",
+		"test": "vitest run"
+	},
+	"devDependencies": {
+		"typescript": "^5.0.0",
+		"vitest": "^4.1.10"
+	}
+}
